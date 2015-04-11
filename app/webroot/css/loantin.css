@@ -1,0 +1,44 @@
+/* loantin */
+
+#scrollbar1 { width: 400px; }
+#scrollbar1 .viewport { width: 400px; height: 120px; overflow: hidden; position: relative; }
+#scrollbar1 .overview { width: 400px; list-style: none; position: absolute; left: 0; top: 0; padding: 0; margin: 0;}
+#scrollbar1 .scrollbar{ background: transparent url(../img/bg-scrollbar-track-y.png) no-repeat 0 0; position: relative; background-position: 0 0; float: right; width: 15px; }
+#scrollbar1 .track { background: transparent url(../img/bg-scrollbar-trackend-y.png) no-repeat 0 100%; height: 100%; width:13px; position: relative; padding: 0 1px; }
+#scrollbar1 .thumb { background: transparent url(../img/bg-scrollbar-thumb-y.png) no-repeat 50% 100%; height: 20px; width: 25px; cursor: pointer; overflow: hidden; position: absolute; top: 0; left: -5px; }
+#scrollbar1 .thumb .end { background: transparent url(../img/bg-scrollbar-thumb-y.png) no-repeat 50% 0; overflow: hidden; height: 5px; width: 25px; }
+#scrollbar1 .disable { display: none; }
+
+div textarea {
+    background: url("../img/bg-shared.png") no-repeat scroll -10px -1930px transparent;
+    border: medium none;
+    float: left;
+    height: 70px !important;
+    padding: 10px 8px;
+    width: 441px !important;
+}
+
+div textarea:focus{background-position: -10px -1833px}
+
+#loantin {width:474px; margin:0 auto;}
+#loantin .loantin-header {overflow:hidden;  background-color:#FFF;border-radius: 5px 5px 0px 0px; margin-top:30px; padding:7px}
+#loantin .loantin-header a {display:block; width:173px; height:44px; background:url(../img/logo-loantin.png) no-repeat;}
+#loantin .comment {background-color:#FFF; padding:10px; overflow:hidden}
+#loantin .comment .comment-text {border-top: 1px solid #e5e5e5; height: 100px;}
+#loantin .comment .comment-text  label {width: 100%; text-align:left; font-size:24px; font-weight:bold; margin-bottom:10px;}
+#loantin .comment .comment-text  div.wd-input {width:100%}
+#loantin .comment .select {/*overflow:hidden;*/ margin-top:10px}
+#loantin .comment .select h2 { font-size:24px; font-weight:bold; margin-bottom:10px; line-height:33px}
+#loantin .comment .select  div.wd-input input {width:auto;margin-right:10px}
+#loantin .comment .select  label {line-height:14px}
+#loantin .comment .select .select fieldset label {font-size:12px;}
+#loantin .comment .select .select-01 {background-color:#edf8fc; padding:5px;border-radius: 5px 5px 0px 0px; border:1px solid #e5e5e5}
+#loantin .comment .select .select-01  label {font-weight:bold;}
+#loantin .comment .select .select-02 {padding:5px;border:1px solid #e5e5e5; border-top:none;border-radius: 0px 0px 5px 5px;}
+#loantin #scrollbar1 {width:442px}
+#loantin .footer {overflow:hidden;  background-color:#FFF;border-radius: 0px 0px 5px 5px; margin-bottom:30px; padding:10px}
+#loantin .footer  div.wd-submit { width:auto; padding-left:73px;}
+#loantin .footer  div.wd-submit input.wd-send { background:url(../img/bg-shared.png) no-repeat -588px -1277px;border-radius:0px; text-indent:-1999999px;padding:0px;width: 130px; height: 40px; border:none; margin-right:5px;}
+#loantin .footer  div.wd-submit input.wd-send:hover {background-position: -725px -1277px}
+#loantin .footer  div.wd-submit input.wd-reset { background:url(../img/bg-shared.png) no-repeat -608px -1328px;border-radius:0px; text-indent:-1999999px;padding:0px;width: 130px; height: 40px; border:none}
+#loantin .footer  div.wd-submit input.wd-reset:hover {background-position: -745px -1328px}
